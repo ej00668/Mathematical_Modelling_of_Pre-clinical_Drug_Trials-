@@ -13,34 +13,20 @@ Beyond model fitting, we explore optimal dosing strategies for small-molecule dr
 
 ---
 
-<h2 style="text-align: center;"> Generated Trajectory </h2>
+<h2 style="text-align: center;"> Add title </h2>
 
-Below is the animation linked to Figure 3, where the 'badger' can be seen to be moving along its trajectory. The initial position links to an individual badger that is being monitored at the park, and the diffusion term of the badger has been calculated. 
-
-The animation is plotted every two iterations to show a smoother movement of the badger following its trajectory, in comparison to every thirty-five iterations in Figure 3. Also, only the first 10,000 iterations have been animated out of the 100,000 generated. But, this is a great tool to have a better visual of the badger movements in the park.
+add text
 
 <p align="center">
-<img src="14M_10000.gif">
+<img src="add_image_file">
 </p>
 
 ---
 
-<h2 style="text-align: center;"> Bibliography </h2>
+<h2 style="text-align: center;"> Add title </h2>
 
-[1] Brillinger, D., Preisler, H., Ager, A., Kie, J., and Service, U. *The use of potential functions in modelling animal movement*. Data Analysis from Statistical Foundations: A Festschrift in Honour of the 75th Birthday of DAS Fraser (05 2001).
-
-[2] Burt, W. H. *Territoriality and home range concepts as applied to mammals*. Journal of Mammalogy 24, 3 (1943),
-346–352.
-
-[3] Downs, J., Horner, M., Lamb, D., Loraamm, R. W., Anderson, J., and Wood, B. *Testing time-geographic density estimation for home range analysis using an agent-based model of animal movement*. International Journal of Geographical Information Science 32, 7 (2018), 1505–1522.
-
-[4] Klus, S., Koltai, P., and Schutte, C. *On the numerical approximation of the Perron-Frobenius and Koopman operator*. Journal of Computational Dynamics (2015).
-
-[5] Preisler, H., Ager, A., Johnson, B., and Kie, J. *Modeling animal movements using stochastic differential equations*. Environmetrics 15636 (11 2004), 643–657.
-
-[6] Preisler, H. K., Ager, A. A., and Wisdom, M. J. *Analyzing animal movement patterns using potential functions*.
-Ecosphere 4, 3 (2013), 1–13.
+text
  
  ---
 
- To follow what I do in my work, please click [here](https://j-furber.github.io).
+ My profile: [here](https://www.surrey.ac.uk/people/esha-joshi).
