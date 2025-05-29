@@ -13,12 +13,12 @@ Beyond model fitting, we explore optimal dosing strategies for small-molecule dr
 
 ---
 
-<h2 style="text-align: center;"> Add title </h2>
+<h2 style="text-align: center;"> Non-linear Mixed Effects Framework </h2>
 
 add text
 
 <p align="center">
-<img src="add_image_file">
+<img src="NLME_Fit_Highres.png">
 </p>
 
 ---
