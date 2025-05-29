@@ -1,3 +1,6 @@
+{% if page.mathjax %}
+  {% include mathjax.html %}
+{% endif %}
 &nbsp;
 
 <h1 style="text-align: center;"> BMC-BAMC '25, University of Exeter </h1>
