@@ -1,16 +1,14 @@
 &nbsp;
 
-<h1 style="text-align: center;"> Mathematical Modelling of Pre-clinical Drug Trials: Small Molecule and Antibody Drug Conjugates </h1>
+<h1 style="text-align: center;"> BMC/BAMC, University of Exeter, June 2025  </h1>
 
 <h2 style="text-align: center;"> Abstract </h2>
 
-The purpose of the current study is to establish a modelling framework to understand the movement of European badgers (Meles meles) within their environment. It is widely understood that badgers play a crucial role in the transmission of bovine tuberculosis (bTB), where bTB is a serious disease of cattle and has a significant economic impact on farmers. However, despite all the GPS data, ecologists still do not understand what they can learn from the data about fine-scale badger movement. A key research question we would like to answer is can we generate a dynamical model to explore badger movement?
+Translating findings from pre-clinical to clinical drug trials remains a significant challenge in pharmacology. The main issue is that most pre-clinical studies rely on mouse xenograft models, whereas clinical trials are conducted in humans, where tumours exhibit greater structural constraints and biological differences. A key step toward improving this translation is developing a robust mathematical understanding of pre-clinical trials outcomes, which can enhance predictive modelling, refine drug development strategies, and reduce reliance on animal models.
  
-To model the movements, we are using energy potentials, primarily seen in physics to describe particle motion. Such an approach has been successful in describing the movements of free-ranging elk and their avoidance of vehicles and humans but has yet to be applied to the study of badgers.
+In this study, we analyse tumour growth data from patient-derived xenograft (PDX) models used in pre-clinical trials of small-molecule cytotoxic chemotherapy. The dataset (source: Novartis, open-source dataset) includes longitudinal tumour volume measurements across multiple cancer types capturing both untreated tumour growth and responses to various drug treatments. To characterise tumour growth dynamics, we fit non-linear mixed effects mechanistic tumour growth models for empirical growth laws that account for inter-tumour variability and treatment effects.
  
-The model is created using data driven methods, where it is parametrized using GPS data. The modelling framework will allow us to answer key ecological questions: How does badger movement affect the spread of bTB? How does the weather affect badger movement? With the role badgers play in the spread of bTB, the answer to these questions could be crucial in the role of strategy planning.
- 
-We present results on the parameterized model with the data. This includes the generation of an energy potential and the estimation of a noise term. We have also analysed the differences between male and female badgers to understand different transitions. By simulating these differences, we have created a dynamical model that explores badger movement, and we can now start answering the key ecological questions.
+Beyond model fitting, we explore optimal dosing strategies for small-molecule drugs by integrating our models with RECIST (Response Evaluation Criteria in Solid Tumours)-based response criteria, a set of guidelines used to assess the response of cancer patients to treatment for nutrient diffusion models. Our findings contribute to a deeper understanding of pre-clinical tumour growth patterns and provide a framework for improving dose optimisation, an important step in mathematical oncology. Longer term, this project, in collaboration with GlaxoSmithKline (GSK), aims to establish mechanistic modelling approaches incorporating spatial, pharmacokinetic and pharmacodynamic (PKPD) effects to create models that are fit-for-use in drug development.
 
 
 ---
