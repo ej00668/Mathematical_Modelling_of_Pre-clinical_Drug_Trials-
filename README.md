@@ -37,14 +37,48 @@ In continuation to the PDX data analysis, a non-linear mixed effects framework w
 
 The table below compares the two models and gives an estimate for the parameters used in the exponential-linear growth law: 
 
-<table align="center">
-<tr><th>Model</th><th>Parameter</th><th>Estimate</th><th>AIC</th><th>BIC</th></tr>
-<tr><td>Fixed: $$V_0$$, $$\lambda_1$$</td><td>$$V_0$$</td><td>0.2613</td><td>277.4102</td><td>303.6705</td></tr>
-<tr><td>Random : $$\lambda_0$$</td><td>$$\lambda_0$$</td><td>0.0664</td><td></td><td></td></tr>
-<tr><td></td><td>$$\lambda_1$$</td><td>0.0825</td><td></td><td></td></tr>
-<tr><td>Fixed: $$V_0$$</td><td>$$V_0$$</td><td>0.2614</td><td>282.1145</td><td>318.8789</td></tr>
-<tr><td>Random : $$\lambda_0$$, $$\lambda_1$$</td><td>$$\lambda_0$$</td><td>0.0664</td><td></td><td></td></tr>
-<tr><td></td><td>$$\lambda_1$$</td><td>0.0726</td><td></td><td></td></tr>
+<table align="center" style="width: 90%; border-collapse: collapse; margin: 20px auto;">
+<tr style="background-color: #f2f2f2;">
+  <th style="width: 30%; padding: 12px; border: 1px solid #ddd; text-align: left;">Model</th>
+  <th style="width: 20%; padding: 12px; border: 1px solid #ddd; text-align: center;">Parameter</th>
+  <th style="width: 20%; padding: 12px; border: 1px solid #ddd; text-align: center;">Estimate</th>
+  <th style="width: 15%; padding: 12px; border: 1px solid #ddd; text-align: center;">AIC</th>
+  <th style="width: 15%; padding: 12px; border: 1px solid #ddd; text-align: center;">BIC</th>
+</tr>
+<tr>
+  <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Fixed: $$V_0$$, $$\lambda_1$$<br>Random: $$\lambda_0$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">$$V_0$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.2613</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;" rowspan="3">277.4102</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;" rowspan="3">303.6705</td>
+</tr>
+<tr>
+  <td style="padding: 10px; border: 1px solid #ddd;"></td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">$$\lambda_0$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.0664</td>
+</tr>
+<tr>
+  <td style="padding: 10px; border: 1px solid #ddd;"></td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">$$\lambda_1$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.0825</td>
+</tr>
+<tr style="border-top: 2px solid #333;">
+  <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Fixed: $$V_0$$<br>Random: $$\lambda_0$$, $$\lambda_1$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">$$V_0$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.2614</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;" rowspan="3">282.1145</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;" rowspan="3">318.8789</td>
+</tr>
+<tr>
+  <td style="padding: 10px; border: 1px solid #ddd;"></td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">$$\lambda_0$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.0664</td>
+</tr>
+<tr>
+  <td style="padding: 10px; border: 1px solid #ddd;"></td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">$$\lambda_1$$</td>
+  <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">0.0726</td>
+</tr>
 </table>
 
 ---
