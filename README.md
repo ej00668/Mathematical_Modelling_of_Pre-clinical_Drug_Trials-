@@ -45,9 +45,14 @@ The p-value is significant only for model 1 which considers the exponential grow
 
 ---
 
-<h2 style="text-align: center;"> Add title </h2>
+<h2 style="text-align: center;"> Bibliography </h2>
 
-text
+[1] Nasim, A., Yates, J., Derks, G. & Dunlop, C. A spatially resolved mechanistic growth law for cancer drug development predicting tumour growing fractions. Cancer Res. Commun. 2, 754–761 (2022).
+
+[2] Deakin, A. S. Model for the growth of a solid in vitro tumor. Growth 39, 159–65 (1975).
+
+[3] Gao, H. et al. High-throughput screening using patient-derived tumor xenografts to predict clinical trial drug response. Nat. Med. 21, 1318–1325 (2015).  
+
  
  ---
 
