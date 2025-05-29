@@ -1,6 +1,3 @@
-{% if page.mathjax %}
-  {% include mathjax.html %}
-{% endif %}
 &nbsp;
 
 <h1 style="text-align: center;"> BMC-BAMC '25, University of Exeter </h1>
@@ -24,13 +21,8 @@ In continuation to the PDX data analysis, a non-linear mixed effects framework w
 <img src="NLME_Fit_Highres.png">
 </p>
 
-The table below comapres the two models and gives an estimate for the paramaters used in the expoenntial-linear growth law. 
+The table below comapres the two models and gives an estimate for the paramaters used in the expoenntial-linear growth law: 
 
-| Left |  Center  | Right |
-|:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
 ---
 
 <h2 style="text-align: center;"> Add title </h2>
