@@ -15,12 +15,19 @@ Beyond model fitting, we explore optimal dosing strategies for small-molecule dr
 
 <h2 style="text-align: center;"> Non-linear Mixed Effects Framework </h2>
 
-add text
+In continuation to the PDX data analysis, a non-linear mixed effects framework was applied to the data and the model was fitted using the exponential-linear growth law. Two models were compared where each time, the random effect variable was changed. In the first model, only the exponential growth rate ($\lambda_0$) was considered as a random effect and in the second model, both exponential and linear growth rate ($\lambda_1$) were considered as the radnsom effect. The figure shows the results of the fitting for the PDX data using the non-linear mixed effects framework with the data grouped as per the type of the tumour. 
 
 <p align="center">
 <img src="NLME_Fit_Highres.png">
 </p>
 
+The table below comapres the two models and gives an estimate for the paramaters used in the expoenntial-linear growth law. 
+
+| Left |  Center  | Right |
+|:-----|:--------:|------:|
+| L0   | **bold** | $1600 |
+| L1   |  `code`  |   $12 |
+| L2   | _italic_ |    $1 |
 ---
 
 <h2 style="text-align: center;"> Add title </h2>
