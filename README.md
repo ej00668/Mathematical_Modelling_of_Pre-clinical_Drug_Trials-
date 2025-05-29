@@ -38,10 +38,13 @@ In continuation to the PDX data analysis, a non-linear mixed effects framework w
 The table below compares the two models and gives an estimate for the parameters used in the exponential-linear growth law: 
 
 <table align="center">
-<tr><th>Parameter</th><th>Model 1 ($$\lambda_0$$ only)</th><th>Model 2 ($$\lambda_0$$ & $$\lambda_1$$)</th></tr>
-<tr><td>$$\lambda_0$$</td><td>Value 1</td><td>Value 1</td></tr>
-<tr><td>$$\lambda_1$$</td><td>-</td><td>Value 2</td></tr>
-<tr><td>AIC/BIC</td><td>Value</td><td>Value</td></tr>
+<tr><th>Model</th><th>Parameter</th><th>Estimate</th><th>AIC</th><th>BIC</th></tr>
+<tr><td>Fixed: $$V_0$$, $$\lambda_1$$</td><td>$$V_0$$</td><td>0.2613</td><td>277.4102</td><td>303.6705</td></tr>
+<tr><td>Random : $$\lambda_0$$</td><td>$$\lambda_0$$</td><td>0.0664</td><td></td><td></td></tr>
+<tr><td></td><td>$$\lambda_1$$</td><td>0.0825</td><td></td><td></td></tr>
+<tr><td>Fixed: $$V_0$$</td><td>$$V_0$$</td><td>0.2614</td><td>282.1145</td><td>318.8789</td></tr>
+<tr><td>Random : $$\lambda_0$$, $$\lambda_1$$</td><td>$$\lambda_0$$</td><td>0.0664</td><td></td><td></td></tr>
+<tr><td></td><td>$$\lambda_1$$</td><td>0.0726</td><td></td><td></td></tr>
 </table>
 
 ---
