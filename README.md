@@ -1,6 +1,6 @@
 &nbsp;
 
-<h1 style="text-align: center;"> BMC/BAMC, University of Exeter, June 2025  </h1>
+<h1 style="text-align: center;"> BMC-BAMC '25, University of Exeter </h1>
 
 <h2 style="text-align: center;"> Abstract </h2>
 
