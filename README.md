@@ -41,6 +41,8 @@ The table below compares the two models and gives an estimate for the parameters
 <img src="Table1.png">
 </p>
 The p-value is significant only for model 1 which considers the exponential growth rate ($$\lambda_0$$) as a random effect, suggesting that during the pre-clinical trials, the tumour never approaches the vascular stage but instead stays in the avascular stage. This supports the argument of the early termination of the experiment which takes into consideration the welfare limit of the mouse. 
+
+
 ---
 
 <h2 style="text-align: center;"> Add title </h2>
