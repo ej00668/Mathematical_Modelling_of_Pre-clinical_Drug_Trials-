@@ -29,7 +29,7 @@ Beyond model fitting, we explore optimal dosing strategies for small-molecule dr
 
 <h2 style="text-align: center;"> Non-linear Mixed Effects Framework </h2>
 
-In continuation to the PDX data analysis, a non-linear mixed effects framework was applied to the data and the model was fitted using the exponential-linear growth law. Two models were compared where each time, the random effect variable was changed. In the first model, only the exponential growth rate ($$\lambda_0$$) was considered as a random effect and in the second model, both exponential and linear growth rate ($$\lambda_1$$) were considered as the random effect. The figure shows the results of the fitting for the PDX data using the non-linear mixed effects framework with the data grouped according to the type of the tumour. 
+As part of the ongoing PDX data analysis, a nonlinear mixed-effects (NLME) modeling approach was employed using the exponential-linear tumor growth model. Two hierarchical models were evaluated, differing in the specification of their random effects. In the first model, inter-subject variability was incorporated only on the exponential growth rate parameter ($$\lambda_0$$). In the second model, random effects were included on both the exponential ($$\lambda_0$$) and linear ($$\lambda_1$$) growth rate parameters to capture variability across subjects more comprehensively. The figure presents the model fits to the PDX data under the NLME framework, with results stratified by tumor type.
 
 <p align="center">
 <img src="NLME_Fit_Highres.png">
@@ -40,7 +40,7 @@ The table below compares the two models and gives an estimate for the parameters
 <p align="center">
 <img src="Table1.png">
 </p>
-The p-value is significant only for model 1 which considers the exponential growth rate ($$\lambda_0$$) as a random effect, suggesting that during the pre-clinical trials, the tumour never approaches the vascular stage but instead stays in the avascular stage. This supports the argument of the early termination of the experiment which takes into consideration the welfare limit of the mouse. 
+Statistical analysis revealed that the p-value was significant only for Model 1, which includes the exponential growth rate ($$\lambda_0$$) as the sole random effect. This finding suggests that, during the course of the preclinical trial, tumor growth predominantly follows an exponential trajectory without transitioning to the linear (vascular) growth phase. This observation supports the hypothesis that tumors remain in the avascular stage throughout the study period. Such a growth pattern is consistent with early termination of the experiment, which is typically guided by predefined animal welfare endpoints.
 
 
 ---
